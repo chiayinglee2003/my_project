@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>作業一墨西哥帽子</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Ying's home</h1>
+    <
+    <div id="container"></div>
+    <div class="stats">
+        <div class="col2">
+            <p>
+                Earth Speed:
+                <input class="earthS" type="range" min="-0.04" max="0.04" step="0.001" />
+                <span class="earthS">0</span>
+            </p>
+            <p>
+                Moon Speed:
+                <input class="moonS" type="range" min="-0.2" max="0.2" step="0.005" />
+                <span class="moonS">0</span>
+            </p>
+            <p>
+                Mercury Speed:
+                <input class="MercuryS" type="range" min="-0.2" max="0.2" step="0.005" />
+                <span class="MercuryS">0</span>
+            </p>
+            <p>
+                Mars Speed:
+                <input class="MarsS" type="range" min="-0.2" max="0.2" step="0.005" />
+                <span class="MarsS">0</span>
+            </p>
+            <p>
+                Uranus Speed:
+                <input class="UranusS" type="range" min="-0.2" max="0.2" step="0.005" />
+                <span class="UranusS">0</span>
+            </p>
+            <p>
+                <button id="pauseButton">pause/start</button>
+                <button id="toggleStarButton">Meteor hidden/Mappears</button>
+            </p>
+        </div>
+        <div class="col2">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'SunTab')">Sun</button>
+                <button class="tablinks" onclick="openTab(event, 'EarthTab')">Earth</button>
+                <button class="tablinks" onclick="openTab(event, 'MoonTab')">Moon</button>
+                <button class="tablinks" onclick="openTab(event, 'MercuryTab')">Mercury</button>
+                <button class="tablinks" onclick="openTab(event, 'MarsTab')">Mars</button>
+                <button class="tablinks" onclick="openTab(event, 'UranusTab')">Uranus</button>
+            </div>
+
+            <div id="SunTab" class="tabcontent">
+                <p>
+                    Sun Color:
+                    <input name="sunC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="EAF292">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group sunR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="sunRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="sunRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="sunSC" type="range" min="-10" max="10" step="1" />
+                    <span class="sunSC">1</span><br />
+                    Y: <input class="sunSC" type="range" min="-10" max="10" step="1" />
+                    <span class="sunSC">1</span><br />
+                    Z: <input class="sunSC" type="range" min="-10" max="10" step="1" />
+                    <span class="sunSC">1</span><br />
+                </p>
+            </div>
+            <div id="EarthTab" class="tabcontent">
+                <p>
+                    Earth Color:
+                    <input name="earthC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="cc66ff">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group earthR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="earthRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="earthRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="earthSC" type="range" min="-10" max="10" step="1" />
+                    <span class="earthSC">1</span><br />
+                    Y: <input class="earthSC" type="range" min="-10" max="10" step="1" />
+                    <span class="earthSC">1</span><br />
+                    Z: <input class="earthSC" type="range" min="-10" max="10" step="1" />
+                    <span class="earthSC">1</span><br />
+                </p>
+            </div>
+            <div id="MoonTab" class="tabcontent">
+                <p>
+                    Moon Color:
+                    <input name="moonC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="c0c0c0f">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group moonR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="moonRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="moonRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="moonSC" type="range" min="-10" max="10" step="1" />
+                    <span class="moonSC">1</span><br />
+                    Y: <input class="moonSC" type="range" min="-10" max="10" step="1" />
+                    <span class="moonSC">1</span><br />
+                    Z: <input class="moonSC" type="range" min="-10" max="10" step="1" />
+                    <span class="moonSC">1</span><br />
+                </p>
+            </div>
+            <div id="MercuryTab" class="tabcontent">
+                <p>
+                    Mercury Color:
+                    <input name="MercuryC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="48d1cc">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group MercuryR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="MercuryRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="MercuryRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="MercurySC" type="range" min="-10" max="10" step="1" />
+                    <span class="MercurySC">1</span><br />
+                    Y: <input class="MercurySC" type="range" min="-10" max="10" step="1" />
+                    <span class="MercurySC">1</span><br />
+                    Z: <input class="MercurySC" type="range" min="-10" max="10" step="1" />
+                    <span class="MercurySC">1</span><br />
+                </p>
+            </div>
+            <div id="MarsTab" class="tabcontent">
+                <p>
+                    Mars Color:
+                    <input name="MarsC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="b22222">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group MarsR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="MarsRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="MarsRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="MarsSC" type="range" min="-10" max="10" step="1" />
+                    <span class="MarsSC">1</span><br />
+                    Y: <input class="MarsSC" type="range" min="-10" max="10" step="1" />
+                    <span class="MarsSC">1</span><br />
+                    Z: <input class="MarsSC" type="range" min="-10" max="10" step="1" />
+                    <span class="MarsSC">1</span><br />
+                </p>
+            </div>
+            <div id="UranusTab" class="tabcontent">
+                <p>
+                    Uranus Color:
+                    <input name="UranusC"
+                           class="jscolor {onFineChange:'setColor(this)'}"
+                           value="663399">
+                </p>
+                <p>
+                    Rotate:
+                    <div class="btn-group UranusR">
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+                    </div>
+                    with speed:
+                    <input class="UranusRS" type="range" min="-0.1" max="0.1" step="0.01" />
+                    <span class="UranusRS">0</span>
+                </p>
+                <p>
+                    Scale: <br />
+                    X: <input class="UranusSC" type="range" min="-10" max="10" step="1" />
+                    <span class="UranusSC">1</span><br />
+                    Y: <input class="UranusSC" type="range" min="-10" max="10" step="1" />
+                    <span class="UranusSC">1</span><br />
+                    Z: <input class="UranusSC" type="range" min="-10" max="10" step="1" />
+                    <span class="UranusSC">1</span><br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/three.js"></script>
+    <script src="js/TrackballControls.js"></script>
+    <script src="js/vendor/jscolor.min.js"></script>
+    <script src="js/meshList/mexicoHat.js"></script>
+    <script src="js/listeners.js"></script>
+    <script src="js/main.js"></script>
+    <body style="background-color: #778899; ">
+</html>

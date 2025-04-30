@@ -1,0 +1,117 @@
+﻿h1.title {
+    text-align: center;
+    padding: 16px;
+}
+
+#container {
+    background-image: url('js/image/starrr.jpg');
+    border: 1px solid black;
+    width: 1000px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+
+}
+
+.stats {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col2 {
+  width: 49.8%;
+  float: left;
+}
+
+.stats input {
+  vertical-align: left;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #ffffe0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+#customAudioButton {
+    background-color: #add8e6; /* 绿色背景颜色 */
+    color: black; /* 文本颜色为白色 */
+    padding: 10px 20px; /* 内边距上下为10像素，左右为20像素 */
+    font-size: 16px; /* 字体大小为16像素 */
+    border-radius: 5px; /* 边框圆角半径为5像素 */
+    cursor: pointer; /* 鼠标悬停时显示手型光标 */
+    margin-left: 10px; /* 左侧边距为10像素 */
+}
+  
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+#pauseButton, #toggleStarButton {
+    background-color: #483d8b; /* 按钮背景颜色 */
+    color: #fff; /* 文字颜色 */
+    padding: 10px 20px; /* 内边距 */
+    border: none; /* 移除边框 */
+    border-radius: 5px; /* 圆角边框 */
+    cursor: pointer;
+    margin: 5px; /* 外边距 */
+    font-size: 16px; /* 字体大小 */
+}
+
+    /* 按钮悬停时的样式 */
+    #pauseButton:hover, #toggleStarButton:hover {
+        background-color: #2980b9; /* 鼠标悬停时的背景颜色 */
+    }
+.btn-group button {
+    background-color: #4682b4; /* Green background */
+    border: 1px solid whiteblue; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #fff8dc;
+    //按下按鈕的顏色
+}

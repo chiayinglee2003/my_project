@@ -1,0 +1,356 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"k",
+				"marker"
+			],
+			[
+				"pri",
+				"predict"
+			],
+			[
+				"sun",
+				"sunScaleSel"
+			],
+			[
+				"quer",
+				"querySelectorAll"
+			],
+			[
+				"ge",
+				"geometry"
+			],
+			[
+				"me",
+				"mexicoHatGeometry"
+			],
+			[
+				"sunR",
+				"sunRotateSel"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"Earth",
+				"EarthTab"
+			],
+			[
+				"e",
+				"e"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/李佳穎/Downloads/main (3).py",
+			"settings":
+			{
+				"buffer_size": 10747,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "Packages/C++11/C++11.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/李佳穎/OneDrive/桌面/資工三乙李佳穎410262107墨西哥帽子作業一"
+	],
+	"file_history":
+	[
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture4/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture7/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture3/main.py",
+		"/C/Users/李佳穎/Downloads/main (2).py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture5/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture6/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture2/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab4_410262107_李佳穎/Architecture1/main.py",
+		"/C/Users/李佳穎/Downloads/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/main1.py",
+		"/C/Users/李佳穎/OneDrive/桌面/深度學習_Lab2_410262107_李佳穎/main.py",
+		"/C/Users/李佳穎/OneDrive/桌面/lab2.py",
+		"/C/Users/李佳穎/OneDrive/桌面/222.py",
+		"/C/Users/李佳穎/OneDrive/桌面/資工三乙李佳穎410262107墨西哥帽子作業一/index.html",
+		"/C/Users/李佳穎/OneDrive/桌面/資工三乙李佳穎410262107墨西哥帽子作業一/js/main.js",
+		"/C/Users/李佳穎/OneDrive/桌面/資工三乙李佳穎410262107墨西哥帽子作業一/js/listeners.js",
+		"/C/Users/李佳穎/OneDrive/桌面/資工三乙李佳穎410262107墨西哥帽子作業一/js/meshList/mexicoHat.js",
+		"/H/webgl-Hw02/index.html",
+		"/H/webgl-Hw02/js/main.js",
+		"/H/墨西哥帽子 觀摩程式/觀摩程式三/墨西哥帽子/hat.html",
+		"/H/墨西哥帽子 觀摩程式/觀摩程式三/墨西哥帽子/hata.js",
+		"/H/墨西哥帽子 觀摩程式/觀摩程式三/墨西哥帽子/hat.js",
+		"/H/墨西哥帽子 觀摩程式/觀摩程式三/墨西哥帽子/hata.html",
+		"/H/webgl-Hw02/style.css",
+		"/H/webgl-Hw02/js/meshList/mexicoHat.js",
+		"/H/Midtern Assignment/js/gameObject/brick.js",
+		"/H/webgl-Hw02/webgl-Hw02.sublime-project",
+		"/D/la4328.out",
+		"/D/la4328.in",
+		"/D/la4328.cpp",
+		"/D/p24.out",
+		"/D/p24.in",
+		"/D/p24.cpp"
+	],
+	"find":
+	{
+		"height": 34.4
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"activation_function",
+			"sun",
+			"previousSibling",
+			"sun.scale.x",
+			"[scPos[i]]",
+			"-0.1",
+			"sunRS",
+			"overdraw: 0.5",
+			"geometry",
+			"generateVertexColors",
+			"light",
+			"geometry",
+			"blending: THREE.AdditiveBlending",
+			"change",
+			"light",
+			"wireframe: true",
+			"color",
+			"sunColorSel",
+			"rotate[0]",
+			"sun",
+			"rotate[0]",
+			"sun",
+			"sunRS",
+			"drawArrays",
+			"0",
+			"new THREE.Vector3(0, 1, 0)",
+			"'",
+			"\"",
+			"evt",
+			"cityName",
+			"angle",
+			">>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/李佳穎/Downloads/main (3).py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.4
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 198.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webgl-Hw02.sublime-project",
+	"replace":
+	{
+		"height": 65.6
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
